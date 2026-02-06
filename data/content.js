@@ -76,5 +76,5 @@ export const loveLetter = {
         "Every day with you is a new chapter in my favorite book. I can't wait to write the rest of our story together."
     ],
     signOff: "Forever yours,",
-    sender: "Starlight ✨"
+    sender: "Starlight"
 };
