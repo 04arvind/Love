@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <LoveLetterModal />
         {children}
         <Analytics />
-        <SpeedInsights />
+        <SpeedInsights url="https://heartnote.vercel.app/" />
       </body>
     </html>
   );
