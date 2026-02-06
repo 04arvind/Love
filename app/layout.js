@@ -1,6 +1,7 @@
 import { Dancing_Script, Outfit } from "next/font/google";
 import LoveLetterModal from "@/components/LoveLetterModal";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 const dancingScript = Dancing_Script({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <LoveLetterModal />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
